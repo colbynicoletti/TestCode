@@ -1,4 +1,4 @@
-package sample;
+package com.company;
 
 public class NestedClass {
     private int outerClassField;
@@ -6,7 +6,7 @@ public class NestedClass {
 
     class InnerClass{
         void changeOuterClassField(){
-            //cannot do this if static 
+            //cannot do this if static
             outerClassField = 5;
         }
     }
