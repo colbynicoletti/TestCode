@@ -36,6 +36,7 @@ public class GenericsAgain {
       System.out.println(i + " ");
     }
     System.out.println();
+
   }
 }
 
